@@ -92,3 +92,13 @@ text = 'my_variable'
 print(text.isidentifier())  # Output: True
 text = 'my variable'
 print(text.isidentifier())  # Output: False
+
+#delete
+#del name[0]  # Throws an error
+#del name  # Deletes the variable name
+#del name[:]  # Deletes the entire string
+#del name[0:1]  # Deletes the first character
+
+#reverse the string
+name = "Suraj"
+print(name[::-1])  # Reverse the string
